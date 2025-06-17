@@ -1,0 +1,19 @@
+title: "Hanieh Kashfi"
+email: "kashfi.hanieh@gmail.com"
+description: "Academic website of Hanieh Kashfi"
+url: "https://haniehkashfi.github.io"
+baseurl: ""
+repository: haniehkashfi/haniehkashfi.github.io
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - _pages/publications.md
+  - _pages/contact.md
